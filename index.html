@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyLinkVPN - Безопасный VPN</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #3270b5;
+            --primary-dark: #285a94;
+            --light-text: #fff;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+            color: var(--light-text);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 600px;
+            width: 100%;
+        }
+        
+        .logo {
+            margin-bottom: 30px;
+        }
+        
+        .logo i {
+            font-size: 48px;
+            margin-bottom: 15px;
+            display: block;
+        }
+        
+        .logo h1 {
+            font-size: 36px;
+            font-weight: 700;
+        }
+        
+        .description {
+            margin-bottom: 40px;
+            line-height: 1.6;
+            font-size: 18px;
+            opacity: 0.9;
+        }
+        
+        .features {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 50px;
+        }
+        
+        .feature {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 10px;
+            width: 160px;
+        }
+        
+        .feature i {
+            font-size: 24px;
+            margin-bottom: 10px;
+            display: block;
+        }
+        
+        .cta-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--light-text);
+            color: var(--primary-color);
+            padding: 18px 40px;
+            border-radius: 50px;
+            font-size: 20px;
+            font-weight: 700;
+            text-decoration: none;
+            transition: all 0.3s;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            margin-bottom: 30px;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+            background-color: #f0f0f0;
+        }
+        
+        .cta-button i {
+            margin-right: 10px;
+            font-size: 24px;
+        }
+        
+        .footer {
+            margin-top: 30px;
+            font-size: 14px;
+            opacity: 0.7;
+        }
+        
+        @media (max-width: 480px) {
+            .logo h1 {
+                font-size: 28px;
+            }
+            
+            .description {
+                font-size: 16px;
+            }
+            
+            .cta-button {
+                padding: 15px 30px;
+                font-size: 18px;
+            }
+            
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <i class="fas fa-shield-alt"></i>
+            <h1>SkyLinkVPN</h1>
+        </div>
+        
+        <div class="description">
+            <p>Безопасный и быстрый VPN-сервис для защиты вашей конфиденциальности в интернете. Обходите ограничения и защитите свои данные с помощью передовых технологий шифрования.</p>
+        </div>
+        
+        <div class="features">
+            <div class="feature">
+                <i class="fas fa-lock"></i>
+                <div>Конфиденциальность</div>
+            </div>
+            <div class="feature">
+                <i class="fas fa-bolt"></i>
+                <div>Высокая скорость</div>
+            </div>
+            <div class="feature">
+                <i class="fas fa-globe"></i>
+                <div>Доступ к контенту</div>
+            </div>
+        </div>
+        
+        <a href="https://t.me/SkyLinkVPNbot?start=ref_5417084706" class="cta-button">
+            <i class="fab fa-telegram"></i>
+            Начать в Telegram
+        </a>
+        
+        <div class="footer">
+            <p>© 2023 SkyLinkVPN. Все права защищены.</p>
+        </div>
+    </div>
+</body>
+</html>
